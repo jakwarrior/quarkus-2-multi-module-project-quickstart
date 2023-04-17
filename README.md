@@ -1,6 +1,6 @@
 # quarkus-2-multi-module-project-quickstart Project
 
-Using lombok, jandex index for indexing modules, Quarkus 2.4.2.Final.
+Using lombok, jandex index for indexing modules, Quarkus 2.16.6.Final.
 
 It contains two modules quickstart-core and quickstart-rest, but it can be separated to more
 modules (html, runner, services, etc.)
@@ -17,7 +17,7 @@ You can run your application in dev mode that enables live coding using:
 ./mvnw compile quarkus:dev
 ```
 
-> **_NOTE:_**  Quarkus now ships with a Dev UI, which is available in dev mode only at http://localhost:8080/q/dev/.
+> **_NOTE:_** Quarkus now ships with a Dev UI, which is available in dev mode only at http://localhost:8080/q/dev/.
 
 ## Packaging and running the application
 

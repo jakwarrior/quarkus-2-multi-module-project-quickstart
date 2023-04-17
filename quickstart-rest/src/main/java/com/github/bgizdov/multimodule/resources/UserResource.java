@@ -1,6 +1,7 @@
 package com.github.bgizdov.multimodule.resources;
 
 import com.github.bgizdov.multimodule.entities.User;
+import com.github.bgizdov.multimodule.service.TestService;
 import com.github.bgizdov.multimodule.services.UserService;
 import io.smallrye.common.annotation.Blocking;
 import javax.inject.Inject;
@@ -18,10 +19,20 @@ public class UserResource {
   @Inject
   UserService service;
 
+  @Inject
+  TestService injectService;
+
   @GET
   @Path("/hello")
   @Blocking
   public User hello() {
     return service.getUser();
+  }
+
+  @GET
+  @Path("/inject")
+  @Blocking
+  public String inject() {
+    return injectService.getTest();
   }
 }
