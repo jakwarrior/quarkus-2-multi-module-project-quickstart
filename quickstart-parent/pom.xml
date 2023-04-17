@@ -22,8 +22,8 @@
   </properties>
   <packaging>pom</packaging>
   <modules>
-    <module>quickstart-core</module>
-    <module>quickstart-rest</module>
+    <module>../quickstart-core</module>
+    <module>../quickstart-rest</module>
   </modules>
   <dependencyManagement>
     <dependencies>

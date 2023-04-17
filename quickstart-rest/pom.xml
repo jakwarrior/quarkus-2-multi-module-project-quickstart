@@ -7,6 +7,7 @@
     <artifactId>quickstart-parent</artifactId>
     <groupId>com.github.bgizdov</groupId>
     <version>1.0.0-SNAPSHOT</version>
+    <relativePath>../quickstart-parent</relativePath>
   </parent>
 
   <artifactId>quickstart-rest</artifactId>
